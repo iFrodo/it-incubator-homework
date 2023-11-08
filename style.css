@@ -116,7 +116,7 @@ a {
 .rates__background {
     background-color: #F9FAFC;
     width: 100vw;
-    height: 550px;
+    height: 643px;
     position: absolute;
     z-index: -1;
 }
@@ -216,7 +216,7 @@ th {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 150px;
 }
 
@@ -262,7 +262,10 @@ input {
 }
 
 .account__form {
-
+    color: #95A1BB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
     display: flex;
     flex-direction: column;
 }
@@ -293,6 +296,8 @@ input {
 
 .account__form-textarea {
     margin-bottom: 20px;
+    border: 1px solid #95A1BB;
+    border-radius: 4px;
 }
 
 .account__form-btn {
@@ -300,9 +305,6 @@ input {
     color: #fff;
     border-radius: 4px;
     background: #0A61F7;
-    font-size: 14px;
-    line-height: 19.6px;
-    letter-spacing: 1.4px;
     text-transform: uppercase;
     padding: 16px 180px;
 }
