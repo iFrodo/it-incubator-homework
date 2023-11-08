@@ -11,6 +11,7 @@ a {
 
 .container {
     width: 1140px;
+    height: 100%;
     margin: 0 auto;
 
 }
@@ -209,10 +210,20 @@ th {
     transition: 0.5s;
 }
 
+.account {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
 .account__title {
     font-size: 32px;
     line-height: 40px;
-    margin-top: 100px;
+
 }
 
 .account__info {
@@ -231,11 +242,92 @@ th {
     font-weight: 400;
     line-height: 22px;
 }
-.account__item{
+
+.account__item {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 15px;
 }
-.account__item-img{
+
+.account__item-img {
     margin-right: 15px;
+}
+
+input {
+    padding: 14px 13px 15px;
+    border-radius: 4px;
+    border: 1px solid #95A1BB;
+    margin-bottom: 20px;
+}
+
+.account__form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.account__form-input-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account__form-radio-block {
+    display: flex;
+}
+
+.account__form-radio {
+    margin-right: 15px;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    margin-right: 8px;
+}
+
+.account__form_chekbox-label {
+    margin-right: 30px;
+}
+
+.account__form-textarea {
+    margin-bottom: 20px;
+}
+
+.account__form-btn {
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    background: #0A61F7;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding: 16px 180px;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 76px;
+    background: #0A61F7;
+    z-index: -1;
+}
+
+.footer__rigths {
+
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px
 }
