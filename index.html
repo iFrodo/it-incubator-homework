@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="#" class="header__link"><img class="header__logo" src="./Logo.svg"></a>
+            <a href="#" class="header__link"><img class="header__logo" src="./Logo.svg" alt="logo"></a>
             <ul class="header__navbar">
                 <li class="header__navlink-item"> <a href="#" class="header__navlink">Main</a></li>
                 <li class="header__navlink"><a href="#" class="header__navlink">Rates</a></li>
@@ -45,21 +45,21 @@
                 </tr>
                 <tr>
                     <th class="rates__table--bold">Theory</th>
-                    <th><img src="./ok.svg" alt=""></th>
-                    <th><img src="./ok.svg" alt=""></th>
-                    <th><img src="./ok.svg" alt=""></th>
+                    <th><img src="./ok.svg" alt="alt"></th>
+                    <th><img src="./ok.svg" alt="alt"></th>
+                    <th><img src="./ok.svg" alt="alt"></th>
                 </tr>
                 <tr>
                     <th class="rates__table--bold">Practice</th>
-                    <th><img src="./X.svg" alt=""></th>
-                    <th><img src="./ok.svg" alt=""></th>
-                    <th><img src="./ok.svg" alt=""></th>
+                    <th><img src="./X.svg" alt="alt"></th>
+                    <th><img src="./ok.svg" alt="alt"></th>
+                    <th><img src="./ok.svg" alt="alt"></th>
                 </tr>
                 <tr>
                     <th class="rates__table--bold">Code Review</th>
-                    <th><img src="./X.svg" alt=""></th>
-                    <th><img src="./X.svg" alt=""></th>
-                    <th><img src="./ok.svg" alt=""></th>
+                    <th><img src="./X.svg" alt="alt"></th>
+                    <th><img src="./X.svg" alt="alt"></th>
+                    <th><img src="./ok.svg" alt="alt"></th>
                 </tr>
                 <tr>
                     <th class="rates__table--bold "><a href="#" class="rates__table--link">Have questions?</a></th>
@@ -77,43 +77,51 @@
                     solutions to our daily problems and see things from a different perspective. Whenever we are
                     dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
                 <ul class="account__list">
-                    <li class="account__item"><img class="account__item-img" src="./ok.svg" alt="">Easy setup, fast
+                    <li class="account__item"><img class="account__item-img" src="./ok.svg" alt="alt">Easy setup, fast
                         start</li>
-                    <li class="account__item"><img class="account__item-img" src="./ok.svg" alt="">Free forever for core
+                    <li class="account__item"><img class="account__item-img" src="./ok.svg" alt="alt">Free forever for
+                        core
                         features</li>
-                    <li class="account__item"><img class="account__item-img" src="./ok.svg" alt="">14-day trial of
+                    <li class="account__item"><img class="account__item-img" src="./ok.svg" alt="alt">14-day trial of
                         premium features</li>
                 </ul>
             </div>
             <form class="account__form">
-                <input  placeholder="Full Name*">
+                <input placeholder="Full Name*">
                 <label class="account__form-input-block">
                     <input type="email" placeholder="Email*">
                     <input type="password" placeholder="Password*">
                 </label>
                 <label class="account__form-input-block">
                     <input type="text" placeholder="Date of Birth">
-                    <select class="account__form-select" name="" id="">
+                    <select class="account__form-select" name="Country" id="1">
                         <option value="">Russia</option>
                         <option value="">Belarus</option>
                         <option value="">Ukraine</option>
                     </select>
                     <!-- <input type="" placeholder="Country"> -->
                 </label>
+                <div>
                 <label class="account__form-radio-block">
-                    <div class="account__form-radio"> <input name="steck" type="radio" >Frontend</div>
-                    <div class="account__form-radio"><input name="steck" type="radio">Backend</div>
+                    <input name="steck" type="radio">Frontend
                 </label>
-              
+                <label>
+                    <input name="steck" type="radio">Backend
+                </label>
+
+            </div>
+
                 <fieldset class="account__form-fieldset">
                     <legend>Favorite Technologies</legend>
                     <label class="account__form_chekbox-label" for=""><input type="checkbox" name="" id="">HTML</label>
                     <label class="account__form_chekbox-label" for=""><input type="checkbox" name="" id="">CSS</label>
                     <label class="account__form_chekbox-label" for=""><input type="checkbox" name="" id="">React</label>
-                    <label class="account__form_chekbox-label" for=""> <input type="checkbox" name="" id="">Styled components</label>
+                    <label class="account__form_chekbox-label" for=""> <input type="checkbox" name="" id="">Styled
+                        components</label>
                 </fieldset>
-           
-                <textarea class="account__form-textarea" name="" id="" cols="30" rows="4" placeholder="Something else about you..."></textarea>
+
+                <textarea class="account__form-textarea" name="" id="" cols="30" rows="4"
+                    placeholder="Something else about you..."></textarea>
                 <button class="account__form-btn">R E G I S T R A T I O N</button>
             </form>
         </section>

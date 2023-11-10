@@ -278,13 +278,9 @@ input {
 }
 
 .account__form-radio-block {
-    display: flex;
-}
-
-.account__form-radio {
-    display: flex;
     margin-right: 15px;
 }
+
 .account__form-radio input{
     width: 16px;
     height: 16px;
