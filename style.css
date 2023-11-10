@@ -282,7 +282,12 @@ input {
 }
 
 .account__form-radio {
+    display: flex;
     margin-right: 15px;
+}
+.account__form-radio input{
+    width: 16px;
+    height: 16px;
 }
 
 [type="checkbox"],
@@ -292,8 +297,15 @@ input {
 
 .account__form_chekbox-label {
     margin-right: 30px;
-}
 
+}
+.account__form-fieldset{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #95A1BB;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
 .account__form-textarea {
     margin-bottom: 20px;
     border: 1px solid #95A1BB;
