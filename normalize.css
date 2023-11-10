@@ -229,7 +229,10 @@ button:-moz-focusring,
    */
 
 fieldset {
+  box-sizing: border-box;
   padding: 0.35em 0.75em 0.625em;
+  margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /**
