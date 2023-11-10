@@ -298,6 +298,7 @@ input {
     margin-bottom: 20px;
     border: 1px solid #95A1BB;
     border-radius: 4px;
+    padding: 14px 13px 15px;
 }
 
 .account__form-btn {
@@ -332,4 +333,13 @@ input {
     font-style: normal;
     font-weight: 400;
     line-height: 22px
+}
+
+.account__form-select {
+    color: #95A1BB;
+    width: 228px;
+    padding: 14px 13px 15px;
+    border-radius: 4px;
+    border: 1px solid #95A1BB;
+    margin-bottom: 20px;
 }
